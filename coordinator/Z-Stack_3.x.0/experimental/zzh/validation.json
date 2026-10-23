@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "records": 11329,
+  "data_bytes": 181134,
+  "address_min": "0x0",
+  "address_max": "0x57fff",
+  "initial_stack_pointer": "0x20013000",
+  "reset_vector": "0x256dd",
+  "bootloader_word": "0xc5fe0dc5",
+  "bootloader_backdoor": "DIO13 active low",
+  "nv_region": "0x50000-0x55fff, no image data",
+  "sha256": "6924eb5e78b31f770bc0f8ae5dd36a84caec7fc5f13e48f43bdefff11b8a2795",
+  "zip_crc_and_content": "PASS",
+  "zip_sha256": "ada8eb8c4f2d13cb2227080c46b0ca68d4de318ac4b284f49c41cab031311d33"
+}

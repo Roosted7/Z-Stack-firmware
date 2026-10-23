@@ -1,0 +1,22 @@
+--- a/examples/rtos/CC26X2R1_LAUNCHXL/zstack/znp/tirtos7/ticlang/znp_CC26X2R1_LAUNCHXL_tirtos7_ticlang.projectspec
++++ b/examples/rtos/CC26X2R1_LAUNCHXL/zstack/znp/tirtos7/ticlang/znp_CC26X2R1_LAUNCHXL_tirtos7_ticlang.projectspec
+@@ -16,3 +16,3 @@
+         toolChain="TICLANG"
+-        cgtVersion="3.2.2"
++        cgtVersion="5.1.1.LTS"
+         connection="TIXDS110_Connection.xml"
+@@ -21,3 +21,3 @@
+         ignoreDefaultCCSSettings="true"
+-        products="com.ti.SIMPLELINK_CC13XX_CC26XX_SDK;sysconfig"
++        products="com.ti.SIMPLELINK_CC13XX_CC26XX_SDK;sysconfig:1.28.2"
+         compilerBuildOptions="
+--- a/workspace/znp_CC26X2R1_LAUNCHXL_tirtos7_ticlang/znp.syscfg
++++ b/workspace/znp_CC26X2R1_LAUNCHXL_tirtos7_ticlang/znp.syscfg
+@@ -670 +670,7 @@
+ }
++
++// CC2652R coordinator settings from the upstream firmware patch.
++device.enableDCDC = false;
++NVS1.internalFlash.regionBase = 0x50000;
++NVS1.internalFlash.regionSize = 0x6000;
++zstack.rf.txPower = "5";

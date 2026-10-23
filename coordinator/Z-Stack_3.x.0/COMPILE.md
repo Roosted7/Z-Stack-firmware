@@ -2,6 +2,9 @@
 
 This guide describes how to compile both the router and coordinator firmware.
 
+For the separately tested, experimental original zzh build with SDK 8.33 and
+updated TI tools, see [the CC2652R recipe](experimental/zzh/README.md).
+
 ## Setup development environment
 
 1. Download and install [SIMPLELINK-LOWPOWER-F2-SDK 8.30.01.01](https://www.ti.com/tool/download/SIMPLELINK-LOWPOWER-F2-SDK/8.30.01.01)

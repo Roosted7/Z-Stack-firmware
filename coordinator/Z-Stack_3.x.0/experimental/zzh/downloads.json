@@ -1,0 +1,30 @@
+{
+  "SIMPLELINK-LOWPOWER-F2-SDK": [
+    {
+      "url": "https://dr-download.ti.com/software-development/software-development-kit-sdk/MD-BPlR3djvTV/8.33.00.16/simplelink_cc13xx_cc26xx_sdk_8_33_00_16.run",
+      "sha256": "cf9d11a3cd9db58a432f1a70cb91e4b8463269d93cef1f76c6305220e5e7f995"
+    },
+    {
+      "url": "https://dr-download.ti.com/software-development/software-development-kit-sdk/MD-BPlR3djvTV/8.33.00.16/simplelink_cc13xx_cc26xx_sdk_8_33_00_16__linux.zip",
+      "sha256": "e40436b38950218fb474f0c6b8de3f98298ea467882a8673560398677bcdae74"
+    }
+  ],
+  "CCSTUDIO": [
+    {
+      "url": "https://dr-download.ti.com/software-development/ide-configuration-compiler-or-debugger/MD-J1VdearkvK/21.0.1/CCS_21.0.1.00010_linux.zip",
+      "sha256": "3d3f38e5eb62bead98dc73d470dd3e3aed67b599b707fd1b95ccc2d027d4bfb2"
+    }
+  ],
+  "SYSCONFIG": [
+    {
+      "url": "https://dr-download.ti.com/software-development/ide-configuration-compiler-or-debugger/MD-nsUM6f7Vvb/1.28.2.4845/sysconfig-1.28.2_4845-setup.run",
+      "sha256": "86707095714ba9422a8e1523516fba17bdc3cc96ccc21ddad2deaabdd67b4da6"
+    }
+  ],
+  "ARM-CGT-CLANG": [
+    {
+      "url": "https://dr-download.ti.com/software-development/ide-configuration-compiler-or-debugger/MD-ayxs93eZNN/5.1.1.LTS/ti_cgt_armllvm_5.1.1.LTS_linux-x64_installer.bin",
+      "sha256": "ec4c54500b04aa3245d855038a86d3123c53c9eb14c2bfba5fcfb633dc3b3869"
+    }
+  ]
+}

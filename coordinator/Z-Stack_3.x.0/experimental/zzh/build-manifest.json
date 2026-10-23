@@ -1,0 +1,18 @@
+{
+  "hardware": "Electrolama zzh (original CC2652R)",
+  "firmware_revision": "20250321",
+  "source_commit": "58dda33d834ef09132427cb41721d7d68e11a7a6",
+  "sdk": "8.33.00.16",
+  "zstack_component": "8.30.00",
+  "ccs": "21.0.1.00010",
+  "compiler": "5.1.1.LTS",
+  "sysconfig": "1.28.2+4845",
+  "date_utc": "2026-10-23",
+  "hardware_tested": false,
+  "ti_validated_tool_combination": false,
+  "warnings": {
+    "count": 2,
+    "type": "pointer-sign",
+    "file": "source/ti/zstack/npi/npi_tl.c:183"
+  }
+}
