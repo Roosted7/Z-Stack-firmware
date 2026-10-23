@@ -20,6 +20,9 @@ hashes and validation results. Repackaging changes ZIP timestamps/hashes; compar
 the HEX hash when comparing builds. The build retains the same two pointer-sign
 warnings in TI's `npi_tl.c:183` as the baseline.
 
+See the [changelog](CHANGELOG.md) and [SDK impact and patch review](SDK_REVIEW.md)
+for the upgrade assessment and recommended follow-up.
+
 ## Install
 
 `downloads.json` contains official Linux x86-64 installer URLs and published
